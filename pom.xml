@@ -37,6 +37,8 @@
     <!-- The property sonar.projectKey is defined in the CI in order not to collide with optawebs. It overrides
          the default GroupId:ArtifactId to map both main branch and 7.x branches to the same SonarCloud project.
          As the sonar.moduleKey inherits the value of sonar.projectKey by default, we have to override it too. -->
+    <sonar.organization>2022-mmqs-dualcore</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
   </properties>
 
